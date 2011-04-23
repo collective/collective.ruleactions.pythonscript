@@ -21,7 +21,7 @@ setup(name='collective.ruleactions.pythonscript',
       url='http://svn.plone.org/svn/collective/collective.ruleactions.pythonscript',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['collective.ruleactions'],
+      namespace_packages=['collective', 'collective.ruleactions'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[
