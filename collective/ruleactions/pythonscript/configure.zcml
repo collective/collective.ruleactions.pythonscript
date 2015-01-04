@@ -4,7 +4,6 @@
     xmlns:plone="http://namespaces.plone.org/plone"
     i18n_domain="collective.ruleactions.pythonscript">
 
-
     <include package="plone.contentrules" />
     <include package="plone.contentrules" file="meta.zcml" />
 
@@ -35,6 +34,5 @@
         addview="collective.ruleactions.pythonscript"
         editview="edit"
         />
-
 
 </configure>
